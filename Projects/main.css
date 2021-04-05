@@ -45,12 +45,14 @@ li {
   flex-direction: column;
   text-align: center;
   padding-top: 100px;
-  width: 100%;
+  float: right;
+  width: 50%;
 }
 
 .welcome-section p {
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
+  padding-right: 15px;
 }
 
 
