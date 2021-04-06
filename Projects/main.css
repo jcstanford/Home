@@ -68,6 +68,7 @@ li {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
+  float: left;
 }
 
 .projects-section-header {
