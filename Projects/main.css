@@ -86,7 +86,7 @@ li {
 
 div a {
   text-decoration: none;
-  box-shadow: 0 30px 20px rgba(0,0,0,0.19);
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.19);
 }
 
 .projects-grid {
