@@ -70,7 +70,7 @@ li {
   width: 200px;
 }
 
-.projects-section {
+.webdesign-section {
 /*  text-align: center;*/
   padding: 10rem 2rem;
   align-content: center;
@@ -78,10 +78,13 @@ li {
 
 }
 
-.projects-section-header {
+div.card-header {
 /*  max-width: 640px;
   margin: 0 auto 6rem auto;*/
-  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
 }
 
 div a {
@@ -89,7 +92,7 @@ div a {
   box-shadow: 10px 10px 5px rgba(0,0,0,0.19);
 }
 
-.projects-grid {
+/*.projects-grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 4rem;
@@ -97,9 +100,19 @@ div a {
   max-width: 1280px;
   flex-direction: column;
 /*  margin: 30 auto;
-*//*  margin-bottom: 6rem;*/
+  margin-bottom: 6rem;
   background-color: white;
+  text-align: center;*/
+}
+
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+}
+
+div.container {
+  padding: 10px;
 }
 
 .project-title {
