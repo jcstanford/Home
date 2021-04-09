@@ -54,12 +54,16 @@ li {
   padding-left: 50px;
 }
 
-div.welcome-section-p {
+div.intro {
   max-width: 650px;
   max-height: 400px;
-  font-size: 18px;
   flex-direction: column;
   padding-left: 150px;
+  padding-top: 50px;
+}
+
+.skill-list {
+  list-style-type: circle;
 }
 
 /*@media (min-width: 350px;)
