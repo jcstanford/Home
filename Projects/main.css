@@ -64,6 +64,7 @@ div.intro {
 
 .skill-list {
   list-style-type: circle;
+  max-width: 200px;
 }
 
 /*@media (min-width: 350px;)
@@ -109,6 +110,10 @@ div.project-header {
   margin-bottom: 6rem;
   background-color: white;
   text-align: center;*/
+}
+
+.project-section {
+  margin-top: 100px;
 }
 
 div.project-section {
