@@ -84,6 +84,12 @@ div.intro {
   border: 3px solid;
 }
 
+div.project-section {
+  width: 300px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
 div.project-header {
 /*  max-width: 640px;
   margin: 0 auto 6rem auto;*/
@@ -93,6 +99,20 @@ div.project-header {
   font-size: 40px;
   text-align: center;
 }
+
+
+
+div.container {
+  padding: 10px;
+  background-color: white;
+}
+
+.project-tile {
+/*  text-align: center;*/
+}
+
+
+
 
 /*div a {
   text-decoration: none;
@@ -111,27 +131,6 @@ div.project-header {
   background-color: white;
   text-align: center;*/
 }
-
-.project-section {
-  margin-top: 100px;
-}
-
-div.project-section {
-  width: 250px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
-div.container {
-  padding: 10px;
-  background-color: white;
-}
-
-.project-tile {
-/*  text-align: center;*/
-}
-
-
 
 
 
