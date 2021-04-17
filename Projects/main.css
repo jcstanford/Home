@@ -1,6 +1,6 @@
 
 body {
-  background-color: lightblue;
+  background-color: #F4F0EE;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   left: 0;
   width: 100%;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  background-color: gray;
+  background-color: #8E8B8A;
   margin: 0;
   padding: 0;
 }
@@ -40,14 +40,14 @@ li {
   float: left;
 }
 
-.welcome-section {
+.intro {
   display: flex;
   margin-top: 120px;
   flex-direction: row;
   width: auto;
 }
 
-.welcome-section img {
+.intro img {
   height: 30%;
   width: 30%;
   border-radius: 50%;
@@ -77,38 +77,40 @@ div.intro {
 }*/
 
 
-.webdesign-section {
-/*  text-align: center;*/
+/*.webdesign-section {
+  text-align: center;
   padding: 10rem 2rem;
   align-content: center;
   border: 3px solid;
-}
+}*/
+
 
 div.project-section {
-  width: 300px;
+/*  width: 300px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
+  padding-bottom: 10px;*/
 }
 
 div.project-header {
 /*  max-width: 640px;
   margin: 0 auto 6rem auto;*/
-  background-color: #4CAF50;
+  background-color: #8E8B8A;
   color: white;
   padding: 10px;
   font-size: 40px;
   text-align: center;
 }
 
-
-
-div.container {
+/*div.container {
   padding: 10px;
   background-color: white;
-}
+}*/
 
-.project-tile {
-/*  text-align: center;*/
+.about-section {
+  max-width: 100%;
+  flex-direction: column;
+  padding-top: 50px;
 }
 
 
