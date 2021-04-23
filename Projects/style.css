@@ -38,6 +38,11 @@
 
 
 
+html {
+	scroll-behavior: smooth;
+}
+
+
 body {
 	background: var(--clr-light);
 	color: var(--clr-dark);
@@ -169,9 +174,9 @@ header {
 	display: flex;
 	height: 100%;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	margin: 0;
+	
+	align-items: left;
+	margin: 6em;
 	padding: 0;
 }
 
@@ -194,6 +199,26 @@ header {
 	right: 1em;
 	top: 1em;
 	z-index: 1000;
+}
+
+.nav-open .nav {
+	transform: translateX(50%);
+}
+
+.nav-open .nav-toggle {
+	position: fixed;
+}
+
+.nav-open .hamburger {
+	transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before {
+	transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after {
+	opacity: 0;
 }
 
 .hamburger {
@@ -444,8 +469,17 @@ header {
 }
 
 
+.portfolio-item-individual {
+	padding: 0 2em 2em;
+	max-width: 1000px;
+	margin: 0 auto;
+}
 
-
+.portfolio-item-individual p {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
