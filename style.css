@@ -255,6 +255,8 @@ header {
 
 /* Intro section */
 
+
+
 .intro {
 	position: relative;
 }
@@ -279,9 +281,10 @@ header {
 		grid-template-columns: min-content max-content;
 	}
 
-	.intro-img, .about-img {
+	.intro a, .intro-img, .about-img {
 		grid-area: img;
 		min-width: 250px;
+		
 		position: relative;
 		z-index: 2;
 	}
@@ -378,7 +381,7 @@ header {
 		padding-right: calc(200px + 4em);
 	}
 
-	.about-img {
+	.about-me a, .about-img {
 		grid-area: img;
 		position: relative;
 		z-index: 2;
