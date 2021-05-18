@@ -506,6 +506,10 @@ header {
 	margin-right: auto;
 }
 
+.portfolio-item-individual img {
+	box-shadow: var(--bs);
+	margin: 0 auto;
+}
 
 
 
