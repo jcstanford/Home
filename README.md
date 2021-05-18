@@ -1,3 +1,5 @@
-# Portfolio
-Time to tidy up my portfolio and personal website.
-Still practicing Git, because practice.
+# JColinStanfordWebsite
+My website
+
+https://jcstanford.github.io/Home/
+
