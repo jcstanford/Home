@@ -3,56 +3,101 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colin Stanford - Freelance Web Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
-              rel="stylesheet">
+    <title>Colin Stanford - Portfolio Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300
+                900&display=swap" rel="stylesheet">
+             
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
     <script src="https://kit.fontawesome.com/c04fb4f090.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
   </head> 
 
   <body>
     <header>
-<!--       <div class="logo">
-          <span>Logo design?</span>
-      </div> -->
-      <button class="nav-toggle" aria-label="nav-toggle">
+       <div class="logo">
+          <img src="" alt="logo-image">
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle-navigation">
         <span class="hamburger"></span>
       </button>
+
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
+        <ul class="nav__list">
+
+          <li class="nav__item">
               <a href="#home" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
-              <a href="#services" class="nav-link">My Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="#languages" class="nav-link">Languages</a>
-          </li>
-          <li class="nav-item">
+
+          <li class="nav__item">
               <a href="#about" class="nav-link">About Me</a>
           </li>
-          <li class="nav-item">
+
+          <li class="nav__item">
+            <a href="#languages" class="nav-link">Languages</a>
+          </li>
+
+          <li class="nav__item">
+              <a href="#services" class="nav-link">My Services</a>
+          </li>
+
+          <li class="nav__item">
               <a href="#work" class="nav-link">My Work</a>
           </li>
         </ul>
       </nav>
     </header>
 
+                    <!-- Intro section -->
+
     <section class="intro" id="home">
-      <h1 class="section-title-intro">
+
+      <h1 class="section__title section__title--intro">
         Hi! I'm <strong>Colin Stanford</strong>
       </h1>
-      <p class="section-subtitle-intro">freelance developer</p>
-        <img src="https://lh3.googleusercontent.com/kHf_isdLKh1Hn0ogsR8pykXvHf0d3aYLooJ_i8RqPCqcHPfKX14yGUOOp38ZYhbo3KFD1MFbplwK9P78zE_10Ml0eU566FjLzM22YYn8ddz2YLnfz9OObfULyxzZTNe_FqYaK4OulQ=w600-h315-p-k" alt="photo of Colin" class="intro-img"/>
-    </section>
-    
 
-    <!-- My services -->
-    
-    <section class="my-services" id="services">
-      <h2 class="section-title section-title-services">What I do</h2>
+      <p class="section__subtitle section__subtitle--intro">freelance developer</p>
+        <img src="https://drive.google.com/uc?id=1fF_DrkDytmF_FuxpIgjzr5kkg3J-SnLu"
+              alt="picture of colin smiling" class="intro__img"/>
+    </section>
+
+                    <!-- About section  -->
+
+    <section class="about-me" id="about">
+
+      <h2 class="section__title section__title--about">Who I am</h2>
+
+      <p class="section__subtitle section__subtitle--about">
+        Software Developer based out of Denver, CO
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Since writing my first line of code and getting “Hello World” to the console, I became
+          fascinated by software development. It has offered an ongoing chance to challenge myself, 
+          learn, and improve my skills in writing good code. 
+          <!-- add more -->
+        </p>
+      </div>
+        <img src="https://drive.google.com/uc?id=1SU4eOKLxoO10NugPqjrsP9uek7yCaMf3"
+              alt="photo of Colin by a river" class="about-me__img"/>
+    </section>
+      </div>
+
+                  <!-- Services section -->
+
+    <section class="my__services" id="services">
+
+      <h2 class="section__title section__title--services">What I do</h2>
+
       <div class="services">
+
         <div class="service">
           <h3>Design & Development</h3>
           <p>Designing, developing, and testing web pages and web applications.</p>
@@ -60,86 +105,93 @@
 
         <div class="service">
           <h3>Data</h3>
-          <p>Using SQL and Tableau to create visual representations of data in a way that is comprehensible and simple to digest.</p>
+          <p>
+            Using SQL and Tableau to create visual representations of data in a way that is
+            comprehensible and simple to digest.
+          </p>
         </div>
 
-<!--         <div class="service">
-          <h3>WordPress</h3>
-          <p>As you can see, this is my personal website. However, I built it with HTMl, CSS, and Javascript. I am starting to learn WordPress, but it doesn't seem necessary if you know how to code.</p>
-        </div> -->
-      </div>
+        <div class="service">
+          <h3>Other service I can do?</h3>
+          <p>
 
-      <a href="#work" class="btn">My Work</a>
+          </p>
+        </div>
+      </div>
     </section>
 
-    <!-- languages and skills -->
 
-    <section id="languages" class="code-languages">
-      <h2 class="section-title section-title-skills">Skills</h2>
-      <p class="section-subtitle section-subtitle-skills">A list of my coding and programming skills</p>
+                    <!-- My work -->
+
+
+    <section class="my-work" id="work">
+
+      <h2 class="section__title section__title--work">My Work</h2>
+
+      <p class="section__subtitle section__subtitle--work"></p>
+
+      <div class="portfolio">
+
+        <a href="#" class="portfolio__item">Battleship?
+          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2"
+                  alt="portfolio image" class="portfolio__img">
+
+        <a href="technicalpage.html" class="portfolio__item">Technical Documentation Page
+          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2"
+                  alt="portfolio image" class="portfolio__img">
+
+        <a href="weatherapp.html" class="portfolio__item">Weather App
+          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2"
+                  alt="portfolio image" class="portfolio__img">
+
+        <a href="#" class="portfolio__item">Weather App
+          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2"
+                  alt="portfolio image" class="portfolio__img">
+      </div>
+    </section>
+
+
+                    <!-- Coding challenges section -->
+  <!-- instead of just a list of skills, describe the coding challenge you did  -->
+
+    <section id="challenges" class="coding__challenges">
+      <h2 class="section__title section__title--challenges">Coding Challenges</h2>
+      <p class="section__subtitle section__subtitle--challenges">
+        A handful of coding challenges I've completed over the years
+      </p>
       
-      <div class="language-list">
-        <ul class="language-list">
-          <li class="language-list-item">HTML
+      <div class="challenge__list">
+        <ul class="challenges">
+          <li class="challenge">
+
           </li>
-          <li class="language-list-item">CSS
+          <li class="challenge">
+
           </li>
-          <li class="language-list-item">SQL
+          <li class="challenge">
+
           </li>
-          <li class="language-list-item">Python
+          <li class="challenge">
+
           </li>
         </ul>
       </div>
     </section>
 
 
-    <!-- about me -->
 
-
-    <section id="about" class="about-me">
-      <h2 class="section-title section-title-about">Who I am</h2>
-      <p class="section-subtitle section-subtitle-about">Designer & developer based out of Denver, CO</p>
-
-      <div class="about-me-body">
-        <p>I'm a golfer with a passion for programming. When I first started learning how to code, it was very casually. I was watching and following along with tutorials, but I wasn't building anything meaningful. I committed very little time (if any) to studying and practicing. It wasn't until a year later (Summer 2020) that I started dedicating real time to programming.</p>
-        <p>I moved to Denver with my girlfriend that summer from Los Angeles so she could begin her medical career, and I could return to the state I grew so fond of during my college years. I got a job at a golf course while I started programming more seriously. I began watching Youtube videos by software developers, data scientists, and self-taught programmers. I discovered websites that have great instructors teaching programming languages and technical skills. I started building projects.</p>
-        <p>If you have any desire to build a website for your business, work on a web application, or simply hire someone looking to break into the tech industry, feel free to drop me a line.</p>
-      </div>
-        <img src="https://lh3.googleusercontent.com/1ZFI_Iaiqm1kCIHBRSziXKI_pyJRpSU0PP_rQws0XFtAjJ6sjgkUuRBqw1-c3F_7ZNN36x_ng72omG_J29zOQw5lzF4aPjoOvHm1xy-aXwzyU680Ji5_GgfLLk5VVoSxeLX3jKya_w=w600-h315-p-k" alt="photo of Colin" class="about-img"/>
-    </section>
-
-
-    <!-- My work -->
-
-
-    <section class="my-work" id="work">
-      <h2 class="section-title section-title-work">My Work</h2>
-      <p class="section-subtitle section-subtitle-work"></p>
-
-      <div class="portfolio">
-        <a href="landingpage.html" class="portfolio-item">Landing Page
-          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2" alt="portfolio image" class="portfolio-img">
-        <a href="technicalpage.html" class="portfolio-item">Technical Documentation Page
-          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2" alt="portfolio image" class="portfolio-img">
-        <a href="weatherapp.html" class="portfolio-item">Weather App
-          <img src="https://drive.google.com/uc?id=1RttObim1oW5wMHwlz5Ti_P3Kj7fK3ZT2" alt="portfolio image" class="portfolio-img">
-        </a>
-      </div>
-    </section>
-
-
-    <!-- Footer -->
+                <!-- Footer section -->
 
     <footer class="footer">
       <a href="mailto:j.colin.stanford@gmail.com" class="footer-link">j.colin.stanford@gmail.com</a>
       <ul class="social-list">
-        <li class="social-list-item">
-            <a class="social-list-link" href="https://github.com/jcstanford">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/jcstanford">
               <i class="fab fa-github"></i>
             </a>
         </li>
-        <li class="social-list-item">
-            <a class="social-list-link" href="https://www.linkedin.com/in/jcolin-stanford/">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/jcolin-stanford/">
               <i class="fab fa-linkedin"></i>
             </a>
         </li>
@@ -152,13 +204,4 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
 
