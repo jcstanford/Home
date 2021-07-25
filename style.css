@@ -342,6 +342,7 @@ nav {
 
 .footer__link {
 	font-size: var(--fs-h3);
+	font-weight: var(--fw-bold);
 }
 
 .footer__link:hover,
