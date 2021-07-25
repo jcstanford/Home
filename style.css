@@ -323,3 +323,15 @@ nav {
 	transform: scale(1.2);
 	opacity: .75;
 }
+
+
+/*  Footer section  */
+
+
+.footer {
+	background: #111;
+	color: var(--clr-accent);
+	text-align: center;
+	padding: 2.5em 0;
+}
+
