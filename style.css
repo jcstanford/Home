@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-/* Custom properties, change if you want to */
+						/* Custom properties, change if you want to */
 
 :root {
 	--ff-primary: 'Source Sans Pro', sans-seriff;
@@ -35,7 +35,12 @@
 	}
 }
 
-/* General styles */
+								/* General styles */
+
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	background: var(--clr-light);
@@ -66,7 +71,7 @@ strong {
 
 
 
-/* Buttons */
+								/* Buttons */
 
 
 
@@ -90,7 +95,7 @@ strong {
 
 
 
-/* Typography */
+								/* Typography */
 
 
 
@@ -141,7 +146,8 @@ h3 {
 }
 
 
-/*  Header  */
+								/*  Header  */
+
 
 header {
 	display: flex;
@@ -210,16 +216,17 @@ header {
 }
 
 .nav-open .hamburger {
-	transform: rotate(.625 turn);
+	transform: rotate(.625turn);
 }
 
 .nav-open .hamburger::before {
-	transform: rotate(90deg translateX(-6px));
+	transform: rotate(90deg) translateX(-6px);
 }
 
 .nav-open .hamburger::after {
 	opacity: 0;
 }
+
 
 .hamburger {
 	display: block;
@@ -254,8 +261,8 @@ header {
 
 
 
+								/* Intro section */
 
-/* Intro section */
 
 
 .intro {
@@ -302,7 +309,7 @@ header {
 
 
 
-/*  About me section */
+							/*  About me section */
 
 
 .about-me {
@@ -350,13 +357,13 @@ header {
 
 
 
-/*  My services section  */
+								/*  My services section  */
 
 
 
 .my__services {
 	background-color: var(--clr-light);
-	background-image: url(https://drive.google.com/uc?id=1z53TyaTq7fpaoRbaBc-NZJq6ZkFb17wc);
+	/* background-image: url(https://drive.google.com/uc?id=1z53TyaTq7fpaoRbaBc-NZJq6ZkFb17wc); */
 	background-size: cover;
 	color: var(--clr-dark);
 	text-align: center;
@@ -400,7 +407,7 @@ header {
 }
 
 
-/*  My Work section  */
+								/*  My Work section  */
 
 .my-work {
 	background-color: var(--clr-dark);
@@ -437,7 +444,7 @@ header {
 }
 
 
-/*  Footer section  */
+								/*  Footer section  */
 
 
 .footer {
