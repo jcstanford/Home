@@ -401,7 +401,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
     overflow: hidden;
 }
 
@@ -438,7 +438,6 @@ header {
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
-
 }
 
 .footer a { 
@@ -469,6 +468,7 @@ header {
 
 .social-list__item {
     margin: 0 .5em;
+	font-size: var(--fs-h2);
 }
 
 .social-list__link {
