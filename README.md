@@ -1,5 +1,5 @@
 # JColinStanfordWebsite
-My website
+My Portfolio website
 
 https://jcstanford.github.io/Home/
 
