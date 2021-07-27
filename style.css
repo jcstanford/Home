@@ -417,6 +417,10 @@ header {
 	text-align: center;
 }
 
+.my-work p {
+	color: var(--clr-accent);
+}
+
 .portfolio {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -425,6 +429,7 @@ header {
 .portfolio__item {
 	/* background: var(--clr-accent); */
 	overflow: hidden;
+	text-align: center;
 }
 
 .portfolio__img {
@@ -453,7 +458,6 @@ header {
 	color: var(--clr-dark);
 	text-align: center;
 }
-
 
 
 
