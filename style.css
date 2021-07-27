@@ -524,6 +524,7 @@ header {
 
 .social-list__item {
 	margin: 0 .5em;
+	font-size: var(--fs-h2);
 }
 
 .social-list__link {
