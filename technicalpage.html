@@ -3,67 +3,91 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
-              rel="stylesheet">
+    <title>Colin Stanford - Portfolio Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300
+                900&display=swap" rel="stylesheet">
+             
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
     <script src="https://kit.fontawesome.com/c04fb4f090.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
   </head> 
 
   <body>
     <header>
-      <div class="logo">
-          <img src="" alt="my logo">
-      </div>
-      <button class="nav-toggle" aria-label="nav-toggle">
+       <!-- <div class="logo">
+          <img src="" alt="logo-image">
+      </div> -->
+
+      <button class="nav-toggle" aria-label="toggle-navigation">
         <span class="hamburger"></span>
       </button>
+
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-              <a href="portfolio website.html" class="nav-link">Home</a>
+        <ul class="nav__list">
+
+          <li class="nav__item">
+              <a href="#home" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
-              <a href="portfolio website.html#services" class="nav-link">My Services</a>
+
+          <li class="nav__item">
+              <a href="#about" class="nav-link">About Me</a>
           </li>
-          <li class="nav-item">
-              <a href="portfolio website.html#about" class="nav-link">About Me</a>
+
+          <li class="nav__item">
+            <a href="#services" class="nav-link">My Services</a>
           </li>
-          <li class="nav-item">
-              <a href="portfolio website.html#work" class="nav-link">My Work</a>
+          
+          <li class="nav__item">
+            <a href="#work" class="nav-link">My Work</a>
           </li>
+
+          <li class="nav__item">
+            <a href="#challenges" class="nav-link">Coding Challenges</a>
+          </li>
+
         </ul>
       </nav>
     </header>
 
-    <section class="intro">
-      <h1 class="section-title-intro">
-        <strong>Technical Documentation Page</strong>
+
+    <section class="intro" id="home">
+
+      <h1 class="section__title section__title--intro">
+        Battleship 1.0
       </h1>
-      <p class="section-subtitle-intro">a site to learn more about a subject</p>
-      <img src="https://drive.google.com/uc?id=" alt="pizza logo" class="intro-img">
+
+      <p class="section__subtitle section__subtitle--intro">
+        A battleship game you play in your cpu terminal
+      </p>
+        <img src="https://drive.google.com/uc?id=1CxXJpChc1DymA5eYyscOwADWXA4CBZkk"
+              alt="cpu image" class="intro__img"/>
     </section>
-    
+
     <div class="portfolio-item-individual">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-        <img src="https://drive.google.com/uc?id=1cc2Yiu-OJQFcaW4shgkzU6KF_7EJxset">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-    </div>
+      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+      <img src="https://drive.google.com/uc?id=1OUEsLhgYAjArJHQbdCOBHgEFS81RJnzZ" alt="cpu image">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
+      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+  </div>
 
-
-    <!-- Footer -->
+                <!-- Footer section -->
 
     <footer class="footer">
-      <a href="mailto:j.colin.stanford@gmail.com" class="footer-link">j.colin.stanford@gmail.com</a>
+      <a href="mailto:j.colin.stanford@gmail.com" class="footer__link">j.colin.stanford@gmail.com</a>
       <ul class="social-list">
-        <li class="social-list-item">
-            <a class="social-list-link" href="https://github.com/jcstanford">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/jcstanford">
               <i class="fab fa-github"></i>
             </a>
         </li>
-        <li class="social-list-item">
-            <a class="social-list-link" href="https://www.linkedin.com/in/jcolin-stanford/">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/jcolin-stanford/">
               <i class="fab fa-linkedin"></i>
             </a>
         </li>
@@ -77,13 +101,3 @@
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
- 
