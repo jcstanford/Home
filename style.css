@@ -326,7 +326,7 @@ header {
 @media (min-width: 600px) {
 	.about-me {
 		display: grid;
-		grid-template-columns: 1fr 400px;
+		grid-template-columns: 1fr 200px;
 		grid-template-areas:
 			"title img"
 			"subtitle img"
@@ -409,6 +409,8 @@ header {
 
 								/*  My Work section  */
 
+
+
 .my-work {
 	background-color: var(--clr-dark);
 	color: var(--clr-light);
@@ -418,7 +420,7 @@ header {
 .portfolio {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, min-max(300px, 1fr));
-	/* max-width: 0 auto;  for gigantic screen sizes */
+	max-width: 0 auto;
 }
 
 .portfolio__item {
@@ -442,6 +444,45 @@ header {
 	transform: scale(1.2);
 	opacity: .75;
 }
+
+
+						/*  Coding challenges section */
+
+
+.coding__challenges {
+	background-color: var(--clr-light);
+	color: var(--clr-dark);
+	text-align: center;
+}
+
+.portfolio {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, min-max(300px, 1fr));
+	max-width: 0 auto;
+}
+
+.portfolio__item {
+	background: var(--clr-accent);
+	overflow: hidden;
+}
+
+.portfolio__img {
+	transition:
+		transform 750ms cubic-bezier(.5, 0, .5, 1),
+		opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+	position: relative;
+	z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+	transform: scale(1.2);
+	opacity: .75;
+}
+
 
 
 								/*  Footer section  */
