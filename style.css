@@ -398,12 +398,13 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    color: var(--clr-light);
+    
 }
 
 .portfolio__item {
     /* background: var(--clr-accent); */
     overflow: hidden;
+    color: var(--clr-light);
 }
 
 .portfolio__img {
